@@ -1,4 +1,6 @@
 package org.example;
+import org.example.service.ReplyService;
+import org.example.enums.ReplyType;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;

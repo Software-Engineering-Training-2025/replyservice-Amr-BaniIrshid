@@ -8,7 +8,7 @@ public class ReplyService {
     private final MessageHandler chain ;
 
     public ReplyService() {
-        this.chain = HandlerChainBuilder.buildDefaultChain();
+        this.chain = HandlerChainBuilder.getDefaultChain();
     }
 
     public String reply(String message, ReplyType type) {
